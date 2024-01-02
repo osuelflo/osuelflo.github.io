@@ -1,5 +1,16 @@
 ---
-title: "osuelflo.github.io"
+title: ""
+about:
+  id: intro-heading
+  template: trestles
+  image-width: 20em
+  image-shape: round
+  image: images/profilepic.jpg
+  links:
+    - icon: envelope
+      href: mailto:osuelflo@macalester.edu
+    - icon: github
+      href: https://github.com/osuelflo
 ---
 
 This is a Quarto website.
@@ -7,5 +18,5 @@ This is a Quarto website.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
-1 + 1
+1 + 14
 ```

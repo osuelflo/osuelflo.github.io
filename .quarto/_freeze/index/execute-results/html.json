@@ -1,7 +1,7 @@
 {
-  "hash": "e5ace829f64a8e0f8408831ae2743e21",
+  "hash": "a7896b41995db3be85fbd59c534f90f1",
   "result": {
-    "markdown": "---\ntitle: \"osuelflo.github.io\"\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "markdown": "---\ntitle: \"\"\nabout:\n  id: intro-heading\n  template: trestles\n  image-width: 20em\n  image-shape: round\n  image: images/profilepic.jpg\n  links:\n    - icon: envelope\n      href: mailto:osuelflo@macalester.edu\n    - icon: github\n      href: https://github.com/osuelflo\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 14\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 15\n```\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

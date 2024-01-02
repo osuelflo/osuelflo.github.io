@@ -1,17 +1,27 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "osuelflo.github.io"
+  title: "Owen Suelflow"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - projects.qmd
+  
+  page-footer:
+    left: |
+      &copy; Owen Suelflow, 2024<br>
+      All content licensed under <i class='bi-badge-cc'></i>
+      [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+    right: |
+      Site built with <a href='https://quarto.org/'>Quarto</a>
+
 
 format:
   html:
-    theme: cosmo
+    theme: pulse
     css: styles.css
     toc: true
 

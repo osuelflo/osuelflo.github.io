@@ -1,0 +1,17 @@
+---
+title: "Rail Baron Analysis"
+description: "Finding the optimal strategy to win Rail Baron using Gould's Index."
+image: featured.png
+image-alt: quizgrader logo
+categories:
+  - Graphs
+  - Board Games
+  - Linear Algebra
+about:
+  template: solana
+  image: featured.png
+---
+
+blah blah blah
+
+{{< pdf RailBaronAnalysis.pdf width=100% height=100% >}}

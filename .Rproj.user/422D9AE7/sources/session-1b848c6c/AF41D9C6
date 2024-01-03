@@ -1,14 +1,14 @@
 {
-    "id": "DA261FFD",
-    "path": "~/Desktop/osuelflo.github.io/projects.qmd",
-    "project_path": "projects.qmd",
+    "id": "AF41D9C6",
+    "path": "~/Desktop/osuelflo.github.io/projects/AnalysisRailBaron/index.qmd",
+    "project_path": "projects/AnalysisRailBaron/index.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1643106940",
     "contents": "",
     "dirty": false,
-    "created": 1704236813485.0,
+    "created": 1704319575215.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 4,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "12,3",
+        "cursorPosition": "17,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "215:30"
+        "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1704318701,
+    "lastKnownWriteTime": 1704320171,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1704318701989,
+    "last_content_update": 1704320171275,
     "read_only": false,
     "read_only_alternatives": []
 }

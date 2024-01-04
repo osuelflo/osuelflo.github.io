@@ -7,5 +7,11 @@
   },
   "projects.qmd": {
     "projects.html": "d22ee6ec"
+  },
+  "projects/AnalysisRailBaron/index.qmd": {
+    "index.html": "31b9af73"
+  },
+  "projects/SummerResearchQuadrature/index.qmd": {
+    "index.html": "aee3ff3c"
   }
 }

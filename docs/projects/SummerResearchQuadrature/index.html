@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Developing a new integration method using rational approximation">
 
-<title>Owen Suelflow -</title>
+<title>Owen Suelflow - Integrals via Rational Approximation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +24,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,8 +60,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -70,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Owen Suelflow</span>
     </a>
   </div>
@@ -81,11 +84,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
+    <a class="nav-link" href="../../projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -101,70 +104,37 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/profilepic.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
-    <div class="about-links">
-  <a href="mailto:osuelflo@macalester.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/osuelflo" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.linkedin.com/in/owen-suelflow-a5870421a/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-</div>
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+    <img src="featured.png" class="about-image " style="width: 100%;">
   </div>
-  <div class="about-contents"><div id="intro-heading">
-<section id="owen-suelflow" class="level1">
-<h1>Owen Suelflow</h1>
-<p>he/him/his <br> Student at <a href="https://www.macalester.edu/" target="_blank" rel="noopener">Macalester College</a></p>
-<section id="education" class="level3">
-<h3 data-anchor-id="education">Education</h3>
-<p>Pursuing BA in Math and Computer Science <br> Aug 2022 - Present | Macalester College</p>
-<p>Minnesota PSEO Program <br> Aug 2021 - May 2022 | University of Minnesota</p>
-</section>
-<section id="experience" class="level3">
-<h3 data-anchor-id="experience">Experience</h3>
-<p>Research Assistant under Prof.&nbsp;<a href="https://sites.google.com/macalester.edu/willmitchell/home?pli=1" target="_blank" rel="noopener">William Mitchell</a> <br> May 2023 - Present | Macalester College</p>
-<p>Preceptor (Teacher Assistant) in <a href="https://www.macalester.edu/mscs/" target="_blank" rel="noopener">MSCS Department</a> <br> for MATH 135 &amp; 137, COMP 127 &amp; 365 <br> Jan 2023 - Present | Macalester College</p>
-</section>
-</section>
-</div></div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Integrals via Rational Approximation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Numerical Analysis</div>
+    <div class="quarto-category">Python</div>
+    <div class="quarto-category">Quadrature</div>
+  </div>
+  </div>
+<div>
+  <div class="description">
+    Developing a new integration method using rational approximation
+  </div>
 </div>
-
-<section id="biography" class="level3">
-<h3 data-anchor-id="biography">Biography</h3>
-<p>My interests lie anywhere I can combine my skills in the broad disciplines of math, computer science, and statistics to solve real-world issues. This is the most fulfilling path for me, as I enjoy seeing and using the vast connections between each area. Recently, I spent the summer doing research in numerical analysis, a field that heavily draws on both math and computer science. Working with Professor Will Mitchell, we developed a new numerical integration technique.</p>
-<p>As a student, I strive to have exposure to as many ideas as possible. This helps me become a more well-rounded person and better adapted to take on new challenges. I have also embraced the role of peer-tutor. It is an opportunity for me to help other students, and further my own learning. If I can teach my peers these topics, than that means I will know them that much better. But most of all, I have the privilege to help educate my peers, which is something that I think is super cool and a great opportunity for me as an undergraduate.</p>
-<p><i class="bi-download"></i> Download my <a href="https://drive.google.com/file/d/1Mo9QJa11wbqpfmjAxrVA8S17Z8fWDp3U/view?usp=sharing" target="_blank">Resume</a>.</p>
-</section>
-<section id="personal" class="level3">
-<h3 data-anchor-id="personal">Personal</h3>
-<p>At Macalester, a lot of my time is devoted to the open ultimate frisbee team, Flat Earth. As a captain, I have a variety of roles, from managing team finances and fundraising, to long-term planning. Being ingrained in the team so deeply has been very rewarding. And playing frisbee is one of those things that never gets old.</p>
-<p>I really love backpacking. My twin brother (also at Macalester) and I spend a week in the wilderness each summer, exploring new parks and places. Lately, we have ticked off Glacier National Park and Mt. Assiniboine Provincial Park in British Columbia off our bucket list. Staying active in ways that allow me to explore the outdoors is something that I look forward to every year, and backpacking is an activity that I can do for the rest of my life.</p>
-<p>I also enjoy games. As far as board games go, Terraforming Mars is my go-to. It’s the most complex board game that I’ve found, which might be why I like it so much - there are more ways to gain an edge on my opponents. My goal is to enter a Terraforming Mars tournament, if such things exist. My other favorite game has to be Sudoku. It seems like such a simple game - place each digit 1-9 in each row, column, and sub-grid - and yet, I have found it to be very stimulating. I especially enjoy playing the many variants out there, including Chess, Arrow, and Thermal sudoku.</p>
-</section>
-<section id="get-in-touch" class="level3">
-<h3 data-anchor-id="get-in-touch">Get in Touch</h3>
-<p><strong>Email</strong>: <a href="mailto:osuelflo@macalester.edu">osuelflo@macalester.edu</a></p>
-<p><strong>Address</strong>: 1600 Grand Avenue, Saint Paul, MN 55105</p>
-<p><strong>Phone</strong>: 651-675-6384</p>
+<div class="quarto-title-meta">
+  </div>
+</header> <main class="content" id="quarto-document-content">
+<p>The image above is a contour plot in the complex plane that shows the error between our rational approximation to <span class="math inline">\(\phi(z) = \frac{\log(z+1)}{\log(z-1)}\)</span> and <span class="math inline">\(\phi(z)\)</span>. The scale represents the magnitude of the error (for example, -13 means our approximation is accurate to 13 digits past the decimal point).</p>
+<p>The poster below gives a brief overview of my work with Prof.&nbsp;Mitchell and my fellow reseacher Johan Azambou.</p>
+<p><object data="Rational_Approximation_Quadrature_Poster.pdf" type="application/pdf" width="1000" height="800"><p>Unable to display PDF file. <a href="Rational_Approximation_Quadrature_Poster.pdf">Download</a> instead.</p></object></p>
 
 
-
-</section>
-
-</main> <!-- /main -->
+</main> 
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

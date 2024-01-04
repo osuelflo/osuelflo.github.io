@@ -1,14 +1,14 @@
 {
-    "id": "DA261FFD",
-    "path": "~/Desktop/osuelflo.github.io/projects.qmd",
-    "project_path": "projects.qmd",
+    "id": "4898937B",
+    "path": "~/Desktop/osuelflo.github.io/projects/SummerResearchQuadrature/index.qmd",
+    "project_path": "projects/SummerResearchQuadrature/index.qmd",
     "type": "quarto_markdown",
-    "hash": "1301169687",
+    "hash": "2594855998",
     "contents": "",
     "dirty": false,
-    "created": 1704236813485.0,
+    "created": 1704331446238.0,
     "source_on_save": true,
-    "relative_order": 3,
+    "relative_order": 6,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "12,3",
+        "cursorPosition": "2,79",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "215:30"
+        "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1704332103,
+    "lastKnownWriteTime": 1704332548,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1704332103067,
+    "last_content_update": 1704332548124,
     "read_only": false,
     "read_only_alternatives": []
 }

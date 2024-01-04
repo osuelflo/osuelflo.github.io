@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Owen Suelflow",
-    "section": "",
-    "text": "Owen Suelflow\nhe/him/his  Student at Macalester College\n\nEducation\nPursuing BA in Math and Computer Science  Aug 2022 - Present | Macalester College\nMinnesota PSEO Program  Aug 2021 - May 2022 | University of Minnesota\n\n\nExperience\nResearch Assistant under Prof. William Mitchell  May 2023 - Present | Macalester College\nPreceptor (Teacher Assistant) in MSCS Department  for MATH 135 & 137, COMP 127 & 365 Jan 2023 - Present | Macalester College\n\n\n\n\n\n\nBiography\nMy interests lie anywhere I can combine my skills in the broad disciplines of math, computer science, and statistics to solve real-world issues. This is the most fulfilling path for me, as I enjoy seeing and using the vast connections between each area. Recently, I spent the summer doing research in numerical analysis, a field that heavily draws on both math and computer science. Working with Professor Will Mitchell, we developed a new numerical integration technique.\nAs a student, I strive to have exposure to as many ideas as possible. This helps me become a more well-rounded person and better adapted to take on new challenges. I have also embraced the role of peer-tutor. It is an opportunity for me to help other students, and further my own learning. If I can teach my peers these topics, than that means I will know them that much better. But most of all, I have the privilege to help educate my peers, which is something that I think is super cool and a great opportunity for me as an undergraduate.\n Download my Resume.\n\n\nPersonal\nAt Macalester, a lot of my time is devoted to the open ultimate frisbee team, Flat Earth. As a captain, I have a variety of roles, from managing team finances and fundraising, to long-term planning. Being ingrained in the team so deeply has been very rewarding. And playing frisbee is one of those things that never gets old.\nI really love backpacking. My twin brother (also at Macalester) and I spend a week in the wilderness each summer, exploring new parks and places. Lately, we have ticked off Glacier National Park and Mt. Assiniboine Provincial Park in British Columbia off our bucket list. Staying active in ways that allow me to explore the outdoors is something that I look forward to every year, and backpacking is an activity that I can do for the rest of my life.\nI also enjoy games. As far as board games go, Terraforming Mars is my go-to. It’s the most complex board game that I’ve found, which might be why I like it so much - there are more ways to gain an edge on my opponents. My goal is to enter a Terraforming Mars tournament, if such things exist. My other favorite game has to be Sudoku. It seems like such a simple game - place each digit 1-9 in each row, column, and sub-grid - and yet, I have found it to be very stimulating. I especially enjoy playing the many variants out there, including Chess, Arrow, and Thermal sudoku.\n\n\nGet in Touch\nEmail: osuelflo@macalester.edu\nAddress: 1600 Grand Avenue, Saint Paul, MN 55105\nPhone: 651-675-6384"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Owen Suelflow",
-    "section": "",
-    "text": "Macalester College | St. Paul MN  B.A. in MAJOR | Sept 2019 - May 2023"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -21,10 +7,31 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html#owen-suelflow",
-    "href": "index.html#owen-suelflow",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRail Baron Analysis\n\n\n\nGraphs\n\n\nBoard Games\n\n\nLinear Algebra\n\n\n\nFinding the optimal strategy using a directed graph and Gould’s index\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrals via Rational Approximation\n\n\n\nNumerical Analysis\n\n\nPython\n\n\nQuadrature\n\n\n\nDeveloping a new integration method using rational approximation\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/SummerResearchQuadrature/index.html",
+    "href": "projects/SummerResearchQuadrature/index.html",
+    "title": "Integrals via Rational Approximation",
+    "section": "",
+    "text": "The image above is a contour plot in the complex plane that shows the error between our rational approximation to \\(\\phi(z) = \\frac{\\log(z+1)}{\\log(z-1)}\\) and \\(\\phi(z)\\). The scale represents the magnitude of the error (for example, -13 means our approximation is accurate to 13 digits past the decimal point).\nThe poster below gives a brief overview of my work with Prof. Mitchell and my fellow reseacher Johan Azambou.\nUnable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "projects/AnalysisRailBaron/index.html",
+    "href": "projects/AnalysisRailBaron/index.html",
+    "title": "Rail Baron Analysis",
+    "section": "",
+    "text": "Shown above is a modified game board of Rail Baron. Each railroad is listed on the edge of the board, and the number next to each railroad shows it’s ranking based on our analysis in subsection 3.4, with 1 being the best railroad and 28 being the worst. The highlighted railroads on the board show the optimal network of railroads, chosen using our findings and experience playing the game. The legend in the bottom left corner displays a color-coded guide for each railroad highlighted. We wanted to display a network of railroads because one railroad on its own isn’t good enough; To win the game, one must concoct a network of railroads such that they can get to as many cities as possible.\nThe paper below was a project for Computational Linear Algebra at Macalester College.\nUnable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Owen Suelflow",
     "section": "",
-    "text": "he/him/his  Student at Macalester College\n\n\nPursuing BA in Math and Computer Science  Aug 2022 - Present | Macalester College\nMinnesota PSEO Program  Aug 2021 - May 2022 | University of Minnesota\n\n\n\nResearch Assistant under Prof. William Mitchell  May 2023 - Present | Macalester College\nPreceptor (Teacher Assistant) in MSCS Department  for MATH 135 & 137, COMP 127 & 365 Jan 2023 - Present | Macalester College"
+    "text": "Owen Suelflow\nhe/him/his  Student at Macalester College\n\nEducation\nPursuing BA in Math and Computer Science  Aug 2022 - Present | Macalester College\nMinnesota PSEO Program  Aug 2021 - May 2022 | University of Minnesota\n\n\nExperience\nResearch Assistant under Prof. William Mitchell  May 2023 - Present | Macalester College\nPreceptor (Teacher Assistant) in MSCS Department  for MATH 135 & 137, COMP 127 & 365  Jan 2023 - Present | Macalester College\n\n\n\n\n\n\nBiography\nMy interests lie anywhere I can combine my skills in the broad disciplines of math, computer science, and statistics to solve real-world issues. This is the most fulfilling path for me, as I enjoy seeing and using the vast connections between each area. Recently, I spent the summer doing research in numerical analysis, a field that heavily draws on both math and computer science. Working with Professor Will Mitchell, we developed a new numerical integration technique.\nAs a student, I strive to have exposure to as many ideas as possible. This helps me become a more well-rounded person and better adapted to take on new challenges. I have also embraced the role of peer-tutor. It is an opportunity for me to help other students, and further my own learning. If I can teach my peers these topics, than that means I will know them that much better. But most of all, I have the privilege to help educate my peers, which is something that I think is super cool and a great opportunity for me as an undergraduate.\n Download my Resume.\n\n\nPersonal\nAt Macalester, a lot of my time is devoted to the open ultimate frisbee team, Flat Earth. As a captain, I have a variety of roles, from managing team finances and fundraising, to long-term planning. Being ingrained in the team so deeply has been very rewarding. And playing frisbee is one of those things that never gets old.\nI really love backpacking. My twin brother (also at Macalester) and I spend a week in the wilderness each summer, exploring new parks and places. Lately, we have ticked off Glacier National Park and Mt. Assiniboine Provincial Park in British Columbia off our bucket list. Staying active in ways that allow me to explore the outdoors is something that I look forward to every year, and backpacking is an activity that I can do for the rest of my life.\nI also enjoy games. As far as board games go, Terraforming Mars is my go-to. It’s the most complex board game that I’ve found, which might be why I like it so much - there are more ways to gain an edge on my opponents. My goal is to enter a Terraforming Mars tournament, if such things exist. My other favorite game has to be Sudoku. It seems like such a simple game - place each digit 1-9 in each row, column, and sub-grid - and yet, I have found it to be very stimulating. I especially enjoy playing the many variants out there, including Chess, Arrow, and Thermal sudoku.\n\n\nGet in Touch\nEmail: osuelflo@macalester.edu\nAddress: 1600 Grand Avenue, Saint Paul, MN 55105\nPhone: 651-675-6384"
   }
 ]

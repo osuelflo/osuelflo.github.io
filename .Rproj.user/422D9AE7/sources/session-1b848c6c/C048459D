@@ -3,7 +3,7 @@
     "path": "~/Desktop/osuelflo.github.io/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "0",
+    "hash": "4142210820",
     "contents": "",
     "dirty": false,
     "created": 1704235099549.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "25,14",
-        "scrollLine": "5"
+        "cursorPosition": "23,20",
+        "scrollLine": "4"
     },
     "folds": "",
-    "lastKnownWriteTime": 1704240466,
+    "lastKnownWriteTime": 1704332827,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1704240466609,
+    "last_content_update": 1704332827685,
     "read_only": false,
     "read_only_alternatives": []
 }

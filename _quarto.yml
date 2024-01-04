@@ -21,7 +21,7 @@ website:
 
 format:
   html:
-    theme: materia
+    theme: sandstone
     css: styles.css
     toc: false
 

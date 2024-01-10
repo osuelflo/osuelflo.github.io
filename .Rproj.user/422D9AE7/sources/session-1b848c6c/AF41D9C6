@@ -3,7 +3,7 @@
     "path": "~/Desktop/osuelflo.github.io/projects/AnalysisRailBaron/index.qmd",
     "project_path": "projects/AnalysisRailBaron/index.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "174855246",
     "contents": "",
     "dirty": false,
     "created": 1704319575215.0,
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "2,84",
+        "cursorPosition": "2,282",
         "scrollLine": "0",
         "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1704332593,
+    "lastKnownWriteTime": 1704925231,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1704332593572,
+    "last_content_update": 1704925231228,
     "read_only": false,
     "read_only_alternatives": []
 }

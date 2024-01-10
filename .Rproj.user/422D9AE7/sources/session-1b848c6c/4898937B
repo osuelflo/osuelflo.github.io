@@ -3,7 +3,7 @@
     "path": "~/Desktop/osuelflo.github.io/projects/SummerResearchQuadrature/index.qmd",
     "project_path": "projects/SummerResearchQuadrature/index.qmd",
     "type": "quarto_markdown",
-    "hash": "2594855998",
+    "hash": "1441984476",
     "contents": "",
     "dirty": false,
     "created": 1704331446238.0,
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "2,79",
+        "cursorPosition": "2,215",
         "scrollLine": "0",
         "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1704332548,
+    "lastKnownWriteTime": 1704925542,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1704332548124,
+    "last_content_update": 1704925542172,
     "read_only": false,
     "read_only_alternatives": []
 }

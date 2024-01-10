@@ -1,6 +1,6 @@
 ---
 title: "Integrals via Rational Approximation"
-description: "Developing a new integration method using rational approximation"
+description: "Developed a new integration method using rational approximation. The method is designed to perform better for functions that are harder to integrate using conventional numerical integration techniques."
 image: featured.png
 categories:
   - Numerical Analysis

@@ -1,0 +1,16 @@
+---
+title: "Doodle Noodle"
+description: "Building a mock version of the popular app, Doodle Jump. Final project for COMP 127 - Object-Oriented Programming & Abstraction. This software is built in Java using Macalester's (not so good) graphics package, kiltgraphics."
+image: doodleNoodleScreenshot.png
+categories:
+  - Game
+  - Software
+  - Java
+about:
+  template: marquee
+  image: doodleNoodleScreenshot.png
+---
+
+Shown below is a recording of someone playing the game. The game has all of the features of the classic Doodle Jump game: Moving the character around using the arrow keys, shooting with the up arrow key, and jumping on top of the monsters. Platforms with a beige circle on them indicate trampolines, which allows the character to jump higher.
+
+{{< video doodleNoodleVideo.mov >}}

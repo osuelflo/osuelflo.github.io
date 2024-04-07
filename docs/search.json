@@ -11,7 +11,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRail Baron Analysis\n\n\n\nGraphs\n\n\nBoard Games\n\n\nLinear Algebra\n\n\n\nFinding the optimal strategy in Rail Baron, a famous board game where players purchase railroads and complete routes to various destinations across the U.S. By representing…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrals via Rational Approximation\n\n\n\nNumerical Analysis\n\n\nPython\n\n\nQuadrature\n\n\n\nDeveloped a new integration method using rational approximation. The method is designed to perform better for functions that are harder to integrate using conventional…\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRail Baron Analysis\n\n\n\nGraphs\n\n\nBoard Games\n\n\nLinear Algebra\n\n\n\nFinding the optimal strategy in Rail Baron, a famous board game where players purchase railroads and complete routes to various destinations across the U.S. By representing…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrals via Rational Approximation\n\n\n\nNumerical Analysis\n\n\nPython\n\n\nQuadrature\n\n\n\nDeveloped a new integration method using rational approximation. The method is designed to perform better for functions that are harder to integrate using conventional…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDoodle Noodle\n\n\n\nGame\n\n\nSoftware\n\n\nJava\n\n\n\nBuilding a mock version of the popular app, Doodle Jump. Final project for COMP 127 - Object-Oriented Programming & Abstraction. This software is built in Java using…\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/DoodleNoodle/index.html",
+    "href": "projects/DoodleNoodle/index.html",
+    "title": "Doodle Noodle",
+    "section": "",
+    "text": "Shown below is a recording of someone playing the game. The game has all of the features of the classic Doodle Jump game: Moving the character around using the arrow keys, shooting with the up arrow key, and jumping on top of the monsters. Platforms with a beige circle on them indicate trampolines, which allows the character to jump higher."
   },
   {
     "objectID": "projects/SummerResearchQuadrature/index.html",

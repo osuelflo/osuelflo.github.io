@@ -16,4 +16,3 @@ Shown above is a modified game board of Rail Baron. Each railroad is listed on t
 The paper below was a project for Computational Linear Algebra at Macalester College.
 
 {{< pdf RailBaronAnalysis.pdf width=1000 height=800 >}}
-

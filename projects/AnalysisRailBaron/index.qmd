@@ -11,5 +11,4 @@ about:
   image: featured.png
 ---
 
-Click the link below to interact with the shiny app.
-[shiny app](https://rstudio-connect.macalester.edu/content/7b2f61ab-2368-4dc5-bd07-2263e0a8d0a7){.external}
+Click the link below to interact with the shiny app. [shiny app](https://rstudio-connect.macalester.edu/content/7b2f61ab-2368-4dc5-bd07-2263e0a8d0a7){.external}

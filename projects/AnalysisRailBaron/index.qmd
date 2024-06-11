@@ -1,14 +1,18 @@
 ---
-title: "Moving Average Crossover Strategy Analysis"
-description: "Backtesting the classic moving average crossover strategy, in which the trader buys a stock if that stock's shorter timeframe moving average crosses above the longer timeframe moving average, and closes that position once the shorter moving average crosses back below"
+title: "Rail Baron Analysis"
+description: "Finding the optimal strategy in Rail Baron, a famous board game where players purchase railroads and complete routes to various destinations across the U.S. By representing the game board as a directed graph, insight can be gleaned on the optimal network of railroads."
 image: featured.png
 categories:
-  - Stocks
-  - Shiny
-  - Techincal Analysis
+  - Graphs
+  - Board Games
+  - Linear Algebra
 about:
   template: marquee
   image: featured.png
 ---
 
-Click the link below to interact with the shiny app. [shiny app](https://rstudio-connect.macalester.edu/content/7b2f61ab-2368-4dc5-bd07-2263e0a8d0a7){.external}
+Shown above is a modified game board of Rail Baron. Each railroad is listed on the edge of the board, and the number next to each railroad shows it’s ranking based on our analysis in subsection 3.4, with 1 being the best railroad and 28 being the worst. The highlighted railroads on the board show the optimal network of railroads, chosen using our findings and experience playing the game. The legend in the bottom left corner displays a color-coded guide for each railroad highlighted. We wanted to display a network of railroads because one railroad on its own isn’t good enough; To win the game, one must concoct a network of railroads such that they can get to as many cities as possible.
+
+The paper below was a project for Computational Linear Algebra at Macalester College.
+
+{{< pdf RailBaronAnalysis.pdf width=1000 height=800 >}}

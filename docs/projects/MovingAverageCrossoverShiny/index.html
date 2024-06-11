@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Finding the optimal strategy in Rail Baron, a famous board game where players purchase railroads and complete routes to various destinations across the U.S. By representing the game board as a directed graph, insight can be gleaned on the optimal network of railroads.">
+<meta name="description" content="Backtesting the classic moving average crossover strategy, in which the trader buys a stock if that stock’s shorter timeframe moving average crosses above the longer timeframe moving average, and closes that position once the shorter moving average crosses back below">
 
-<title>Owen Suelflow - Rail Baron Analysis</title>
+<title>Owen Suelflow - Moving Average Crossover Strategy Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,24 +116,22 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Rail Baron Analysis</h1>
+<h1 class="title">Moving Average Crossover Strategy Analysis</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Graphs</div>
-    <div class="quarto-category">Board Games</div>
-    <div class="quarto-category">Linear Algebra</div>
+    <div class="quarto-category">Stocks</div>
+    <div class="quarto-category">Shiny</div>
+    <div class="quarto-category">Techincal Analysis</div>
   </div>
   </div>
 <div>
   <div class="description">
-    Finding the optimal strategy in Rail Baron, a famous board game where players purchase railroads and complete routes to various destinations across the U.S. By representing the game board as a directed graph, insight can be gleaned on the optimal network of railroads.
+    Backtesting the classic moving average crossover strategy, in which the trader buys a stock if that stock’s shorter timeframe moving average crosses above the longer timeframe moving average, and closes that position once the shorter moving average crosses back below
   </div>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header> <main class="content" id="quarto-document-content">
-<p>Shown above is a modified game board of Rail Baron. Each railroad is listed on the edge of the board, and the number next to each railroad shows it’s ranking based on our analysis in subsection 3.4, with 1 being the best railroad and 28 being the worst. The highlighted railroads on the board show the optimal network of railroads, chosen using our findings and experience playing the game. The legend in the bottom left corner displays a color-coded guide for each railroad highlighted. We wanted to display a network of railroads because one railroad on its own isn’t good enough; To win the game, one must concoct a network of railroads such that they can get to as many cities as possible.</p>
-<p>The paper below was a project for Computational Linear Algebra at Macalester College.</p>
-<p><object data="RailBaronAnalysis.pdf" type="application/pdf" width="1000" height="800"><p>Unable to display PDF file. <a href="RailBaronAnalysis.pdf">Download</a> instead.</p></object></p>
+<p>Click the link to interact with the shiny app. <a href="https://rstudio-connect.macalester.edu/content/7b2f61ab-2368-4dc5-bd07-2263e0a8d0a7" class="external">shiny app</a></p>
 
 
 </main> 
